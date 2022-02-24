@@ -97,24 +97,41 @@ http://ovc.catastro.meh.es/INSPIRE/wfsCP.aspx?service=wfs&version=2&request=getf
 * Identificador (STOREDQUERIE_ID): **GetParcel**
 * Parámetros: **REFCAT**
 * Retorno: **CP:CadastralParcel**
-
-**Zonas Catastrales por código de zona** 
-
-http://ovc.catastro.meh.es/INSPIRE/wfsCP.aspx?service=wfs&version=2&request=getfeature&STOREDQUERIE_ID=GetZoning&cod_zona=41624TF3146S&srsname=EPSG::25830
-
-
-
+* 
 
 **Parcelas catastrales, propia y colindantes por referencia catastral**
 
 http://ovc.catastro.meh.es/INSPIRE/wfsCP.aspx?service=wfs&version=2&request=getfeature&STOREDQUERIE_ID=GETNEIGHBOURPARCEL&refcat=3662001TF3136S&srsname=EPSG::25830
 
+* Longitud Ref: **14**
+* Identificador (STOREDQUERIE_ID): **GetNeighbourParcel**
+* Parámetros: **REFCAT**
+* Retorno: **CP:CadastralParcel**
 
+
+**Zonas Catastrales por código de zona** 
+
+http://ovc.catastro.meh.es/INSPIRE/wfsCP.aspx?service=wfs&version=2&request=getfeature&STOREDQUERIE_ID=GetZoning&cod_zona=41624TF3146S&srsname=EPSG::25830
+
+* Longitud Ref: **12**
+* Identificador (STOREDQUERIE_ID): **GetZoning**
+* Parámetros: **COD_ZONA**
+* Retorno: **CP:CadastralZoning **
 
 
 **Parcelas catastrales de una zona por su código de zona**
 
 http://ovc.catastro.meh.es/INSPIRE/wfsCP.aspx?service=wfs&version=2&request=getfeature&STOREDQUERIE_ID=Getparcelsbyzoning&cod_zona=36620TF3136S&srsname=EPSG::25830
+
+* Longitud Ref: **12**
+* Identificador (STOREDQUERIE_ID): **GetParcelsByZoning**
+* Parámetros: **COD_ZONA**
+* Retorno: **CP:CadastralParcel**
+
+
+
+
+
 
 
 
