@@ -84,12 +84,12 @@ Ejemplo de datos del inmueble en la web del Catastro
 https://www1.sedecatastro.gob.es/CYCBienInmueble/OVCListaBienes.aspx?RC1=5225043&RC2=DE7052N&RC3=&RC4=&esBice=&RCBice1=&RCBice2=&DenoBice=&pest=rc&final=&RCCompleta=5225043DE7052N&from=OVCBusqueda&tipoCarto=nuevo&ZV=NO&ZR=NO&anyoZV=&strFechaVR=&tematicos=&anyotem=
 
 
-### URL Y PARÁMETROS:
+## URL Y PARÁMETROS:
 
 https://www.catastro.minhap.es/webinspire/documentos/inspire-cp-WFS.pdf
 
 
-**Parcelas Catastrales por referencia catastral** 
+### Parcelas Catastrales por referencia catastral ###
 
 http://ovc.catastro.meh.es/INSPIRE/wfsCP.aspx?service=wfs&version=2&request=getfeature&STOREDQUERIE_ID=GetParcel&refcat=3662001TF3136S&srsname=EPSG::25830
 
@@ -99,7 +99,7 @@ http://ovc.catastro.meh.es/INSPIRE/wfsCP.aspx?service=wfs&version=2&request=getf
 * Retorno: **CP:CadastralParcel**
 * 
 
-**Parcelas catastrales, propia y colindantes por referencia catastral**
+### Parcelas catastrales, propia y colindantes por referencia catastral ###
 
 http://ovc.catastro.meh.es/INSPIRE/wfsCP.aspx?service=wfs&version=2&request=getfeature&STOREDQUERIE_ID=GETNEIGHBOURPARCEL&refcat=3662001TF3136S&srsname=EPSG::25830
 
@@ -109,7 +109,7 @@ http://ovc.catastro.meh.es/INSPIRE/wfsCP.aspx?service=wfs&version=2&request=getf
 * Retorno: **CP:CadastralParcel**
 
 
-**Zonas Catastrales por código de zona** 
+### Zonas Catastrales por código de zona ### 
 
 http://ovc.catastro.meh.es/INSPIRE/wfsCP.aspx?service=wfs&version=2&request=getfeature&STOREDQUERIE_ID=GetZoning&cod_zona=41624TF3146S&srsname=EPSG::25830
 
@@ -119,8 +119,7 @@ http://ovc.catastro.meh.es/INSPIRE/wfsCP.aspx?service=wfs&version=2&request=getf
 * Retorno: **CP:CadastralZoning **
 
 
-**Parcelas catastrales de una zona por su código de zona**
-
+### Parcelas catastrales de una zona por su código de zona ###
 http://ovc.catastro.meh.es/INSPIRE/wfsCP.aspx?service=wfs&version=2&request=getfeature&STOREDQUERIE_ID=Getparcelsbyzoning&cod_zona=36620TF3136S&srsname=EPSG::25830
 
 * Longitud Ref: **12**
