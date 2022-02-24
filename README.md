@@ -132,6 +132,6 @@ http://ovc.catastro.meh.es/INSPIRE/wfsCP.aspx?service=wfs&version=2&request=getf
 url= "http://ovc.catastro.meh.es/INSPIRE/wfsCP.aspx?service=wfs&version=2&request=getfeature&STOREDQUERIE_ID="
 +identificador+"&"
 +paremetros+"="+referencia_catastral
-+"&srsname=EPSG::"+sistema_referencia
++"&srsname=EPSG::"+sistema_referencia 
 
 
