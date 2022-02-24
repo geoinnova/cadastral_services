@@ -90,6 +90,11 @@ https://www1.sedecatastro.gob.es/CYCBienInmueble/OVCListaBienes.aspx?RC1=5225043
 
 http://ovc.catastro.meh.es/INSPIRE/wfsCP.aspx?service=wfs&version=2&request=getfeature&STOREDQUERIE_ID=GetParcel&refcat=3662001TF3136S&srsname=EPSG::25830
 
+* Longitud Ref: 14
+* Retorno: CP:CadastralParcel 
+* Parámetros: REFCAT
+* Retorno: STOREDQUERIE_ID=GetParcel
+
 
 **Zonas Catastrales por código de zona** 
 
