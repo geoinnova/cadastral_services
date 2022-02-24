@@ -97,7 +97,7 @@ http://ovc.catastro.meh.es/INSPIRE/wfsCP.aspx?service=wfs&version=2&request=getf
 * Identificador (STOREDQUERIE_ID): **GetParcel**
 * Parámetros: **REFCAT**
 * Retorno: **CP:CadastralParcel**
-* 
+
 
 ### Parcelas catastrales, propia y colindantes por referencia catastral ###
 
@@ -129,11 +129,9 @@ http://ovc.catastro.meh.es/INSPIRE/wfsCP.aspx?service=wfs&version=2&request=getf
 
 
 
-
-
-
-
-
-urlBase= http://ovc.catastro.meh.es/INSPIRE/wfsCP.aspx?service=wfs&version=2&request=getfeature&STOREDQUERIE_ID=
+url= "http://ovc.catastro.meh.es/INSPIRE/wfsCP.aspx?service=wfs&version=2&request=getfeature&STOREDQUERIE_ID="
++identificador+"&"
++paremetros+"="+referencia_catastral
++"&srsname=EPSG::"+sistema_referencia
 
 
